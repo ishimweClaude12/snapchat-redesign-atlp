@@ -13,21 +13,64 @@
     margin: 2rem;
 }
 .main{
-    width: 100%;
-    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 33.333%;
+ 
+}
+.main .welcome-text{
+    margin: 2rem 0;
 }
 .main .welcome-text h2{
         font-size: 2.5rem;
 }
 .main .button-wrapper{
-    margin: 2rem 0;
+    margin: 1.4rem 0;
+    width: 100%;
 }
 .main .button-wrapper button{
-    width: 85%;
-    padding: .5rem;
+    width: 100%;
+    padding: 1rem;
     border-radius: 30px;
     background-color: black;
     color: white;
     border: none;
     font-size: 18px;
 }
+.main .trouble-logging{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  margin: .5rem 0;
+}
+.main .or{
+    font-size: 18px;
+    color: #e6e3e3;
+    margin: 2rem 0;
+}
+.main form {
+    width: 100%;
+}
+.main form .input{
+    width: 100%;
+    border: none;
+    margin: .4rem 0;
+    border-bottom: 4px solid #e6e3e3;
+    padding-bottom: .2rem;
+    outline-style: none;
+}
+.input::placeholder{
+    font-size: 1rem;
+    color: #e6e3e3;
+    
+}
+.main .forgot-psw{
+    float: right;
+    text-decoration: none;
+}
+@media (max-width: 1250px) {
+    /* … */
+  }
