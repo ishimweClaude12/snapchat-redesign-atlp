@@ -71,6 +71,18 @@
     float: right;
     text-decoration: none;
 }
-@media (max-width: 1250px) {
-    /* … */
+.btn{
+    width: 100%;
+    padding: 1rem;
+    border-radius: 30px;
+    background-color: #c4c4c4;
+    color: white;
+    border: none;
+    font-size: 18px;
+    margin: 2rem 0;
+}
+@media (max-width: 798px) {
+    .main{
+        width: 80%;
+    }
   }
